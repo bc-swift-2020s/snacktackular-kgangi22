@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0CABA92440CBD400676734 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CABA82440CBD400676734 /* APIKey.swift */; };
 		3C638C48243E5E3600E9E468 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C638C47243E5E3600E9E468 /* Spot.swift */; };
 		3C638C4A243E5F4000E9E468 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C638C49243E5F4000E9E468 /* Spots.swift */; };
 		3C638C4C243F841100E9E468 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C638C4B243F841100E9E468 /* GoogleService-Info.plist */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		16CE701C71B58AEB46CB3C52 /* Pods_Snacktacular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snacktacular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0CABA82440CBD400676734 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		3C638C47243E5E3600E9E468 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 		3C638C49243E5F4000E9E468 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 		3C638C4B243F841100E9E468 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -88,6 +90,7 @@
 				3E8390E8206597F600512DEA /* LaunchScreen.storyboard */,
 				3E8390EB206597F600512DEA /* Info.plist */,
 				3C638C4B243F841100E9E468 /* GoogleService-Info.plist */,
+				3C0CABA82440CBD400676734 /* APIKey.swift */,
 			);
 			path = Snacktacular;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				3E0F960A20659D9000AE450D /* SpotsTableViewCell.swift in Sources */,
 				3C638C48243E5E3600E9E468 /* Spot.swift in Sources */,
 				3E8390E0206597F600512DEA /* AppDelegate.swift in Sources */,
+				3C0CABA92440CBD400676734 /* APIKey.swift in Sources */,
 				3C638C4A243E5F4000E9E468 /* Spots.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
