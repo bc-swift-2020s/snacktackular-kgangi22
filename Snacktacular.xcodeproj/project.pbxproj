@@ -10,6 +10,7 @@
 		3C0CABA92440CBD400676734 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CABA82440CBD400676734 /* APIKey.swift */; };
 		3C160B0524464F5A00D7CDE0 /* Double + RoundTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C160B0424464F5A00D7CDE0 /* Double + RoundTo.swift */; };
 		3C160B0F24479D7500D7CDE0 /* UIView + Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C160B0E24479D7500D7CDE0 /* UIView + Border.swift */; };
+		3C160B112447AB3200D7CDE0 /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C160B102447AB3200D7CDE0 /* ReviewTableViewController.swift */; };
 		3C638C48243E5E3600E9E468 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C638C47243E5E3600E9E468 /* Spot.swift */; };
 		3C638C4A243E5F4000E9E468 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C638C49243E5F4000E9E468 /* Spots.swift */; };
 		3C638C4C243F841100E9E468 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C638C4B243F841100E9E468 /* GoogleService-Info.plist */; };
@@ -30,6 +31,7 @@
 		3C0CABA82440CBD400676734 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		3C160B0424464F5A00D7CDE0 /* Double + RoundTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + RoundTo.swift"; sourceTree = "<group>"; };
 		3C160B0E24479D7500D7CDE0 /* UIView + Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Border.swift"; sourceTree = "<group>"; };
+		3C160B102447AB3200D7CDE0 /* ReviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewController.swift; sourceTree = "<group>"; };
 		3C638C47243E5E3600E9E468 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 		3C638C49243E5F4000E9E468 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 		3C638C4B243F841100E9E468 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -89,6 +91,7 @@
 				3E0F960B2065A17500AE450D /* SpotDetailViewController.swift */,
 				3E0F960D2065AB6400AE450D /* SpotReviewsTableViewCell.swift */,
 				3E0F960F2065AC1A00AE450D /* SpotPhotosCollectionViewCell.swift */,
+				3C160B102447AB3200D7CDE0 /* ReviewTableViewController.swift */,
 				3C160B0424464F5A00D7CDE0 /* Double + RoundTo.swift */,
 				3C160B0E24479D7500D7CDE0 /* UIView + Border.swift */,
 				3E8390E3206597F600512DEA /* Main.storyboard */,
@@ -304,6 +307,7 @@
 				3E0F960A20659D9000AE450D /* SpotsTableViewCell.swift in Sources */,
 				3C638C48243E5E3600E9E468 /* Spot.swift in Sources */,
 				3C160B0524464F5A00D7CDE0 /* Double + RoundTo.swift in Sources */,
+				3C160B112447AB3200D7CDE0 /* ReviewTableViewController.swift in Sources */,
 				3E8390E0206597F600512DEA /* AppDelegate.swift in Sources */,
 				3C0CABA92440CBD400676734 /* APIKey.swift in Sources */,
 				3C638C4A243E5F4000E9E468 /* Spots.swift in Sources */,
