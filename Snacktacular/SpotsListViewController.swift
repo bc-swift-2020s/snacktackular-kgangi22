@@ -166,7 +166,8 @@ extension SpotsListViewController: FUIAuthDelegate {
     
     func authPickerViewController(forAuthUI authUI: FUIAuth) -> FUIAuthPickerViewController {
         let loginViewController = FUIAuthPickerViewController(authUI: authUI)
-        loginViewController.view.backgroundColor = UIColor.white
+        
+        loginViewController.view.backgroundColor = UIColor.red
         
         let marginInsets: CGFloat = 16
         let imageHeight: CGFloat = 225
