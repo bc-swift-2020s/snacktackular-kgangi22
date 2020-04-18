@@ -15,6 +15,7 @@ import GoogleSignIn
 class SpotsListViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
+
     
     @IBOutlet weak var sortSegmentedControl: UISegmentedControl!
     var spots: Spots!
@@ -147,6 +148,9 @@ extension SpotsListViewController: UITableViewDelegate, UITableViewDataSource{
 }
 
 extension SpotsListViewController: FUIAuthDelegate {
+    
+    
+    
     func application(_ app: UIApplication, open url: URL,
                      options: [UIApplication.OpenURLOptionsKey : Any]) -> Bool {
         let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as! String?
@@ -166,6 +170,14 @@ extension SpotsListViewController: FUIAuthDelegate {
     
     func authPickerViewController(forAuthUI authUI: FUIAuth) -> FUIAuthPickerViewController {
         let loginViewController = FUIAuthPickerViewController(authUI: authUI)
+        
+        
+        
+        
+        
+        loginViewController.view.subviews[0].subviews[0].backgroundColor = UIColor.clear
+        
+        
         
         loginViewController.view.backgroundColor = UIColor.red
         
